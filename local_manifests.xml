@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/samsung/a50" name="rvvishal/device-samsung-a50.git" remote="github" revision="lineage-18.1" />
+ <project path="device/samsung/universal9610-common" name="rvvishal/device-samsung-universal9610-common.git" remote="github" revision="lineage-18.1" />
+ <project path="vendor/samsung/a50" name="rvvishal/vendor_samsung_a50-test.git" remote="github" revision="lineage-18.1" />
+ <project path="vendor/samsung/exynos9610-common" name="rvvishal/vendor_samsung_exynos9610-common-testing.git" remote="github" revision="lineage-18.1" />
+ <project path="kernel/samsung/universal9610" name="SamarV-121/android_kernel_samsung_universal7904.git" remote="github" revision="lineage-18.1" />
+ 
+</manifest>
