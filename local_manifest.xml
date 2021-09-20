@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- Remotes -->
-	<remote  name="rvvishal"
-                 fetch="https://github.com/rvvishal" />
-        <remote  name="SamarV-121"
-                 fetch="https://github.com/SamarV-121" />
-                 
- <!-- Trees -->
- 	<project path="device/samsung/a50" name="device-samsung-a50" remote="rvvishal" revision="lineage-18.1" />
-  <project path="device/samsung/universal9610-common" name="device-samsung-universal9610-common" remote="rvvishal" revision="lineage-18.1" />
- <project path="vendor/samsung/a50" name="vendor_samsung_a50-test" remote="rvvishal" revision="lineage-18.1" />
- <project path="vendor/samsung/exynos9610-common" name="vendor_samsung_exynos9610-common-testing" remote="rvvishal" revision="lineage-18.1" />
- <project path="kernel/samsung/universal9610" name="android_kernel_samsung_universal7904" remote="SamarV-121" revision="lineage-18.1" />
- 
+
+        <remote name="rvvishal"
+                fetch="https://github.com/rvvishal" />
+        
+        <project path="kernel/samsung/universal9610" name="android_kernel_samsung_universal7904" remote="rvvishal" revision="lineage-18.1" clone-depth="1" />
+        <project path="device/samsung/a50" name="device-samsung-a50" remote="rvvishal" revision="lineage-18.1" clone-depth="1" />
+        <project path="device/samsung/universal9610-common" name="device-samsung-universal9610-common" remote="rvvishal" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/samsung/a50" name="vendor_samsung_a50-test" remote="rvvishal" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/samsung/exynos9610-common" name="vendor_samsung_universal9610-common-testing" remote="rvvishal" revision="lineage-18.1" clone-depth="1" />
+
 </manifest>
